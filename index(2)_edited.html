@@ -1,0 +1,2053 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+کلینیک آرامیس | دکتر رضا واقعی تبار
+</title>
+
+<meta name="description" content="درمان فیبروم رحم بدون جراحی توسط دکتر رضا واقعی تبار - فلوشیپ رادیولوژی اینترونشن">
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:'Vazirmatn',sans-serif;
+background:linear-gradient(135deg,#2F80ED,#56CCF2);;
+color:#222;
+line-height:1.9;
+
+}
+
+header{
+  backdrop-filter:blur(14px);
+background:rgba(255,255,255,.90);
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+z-index:999;
+
+}
+
+nav{
+
+width:90%;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px;
+
+}
+
+.logo{
+
+font-size:30px;
+font-weight:800;
+color:#2F80ED;
+
+}
+
+nav ul{
+
+display:flex;
+gap:25px;
+list-style:none;
+
+}
+
+nav a{
+
+text-decoration:none;
+color:#333;
+font-weight:600;
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#2F80ED;
+
+}
+
+.hero{
+
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:120px 8%;
+gap:70px;
+background:linear-gradient(135deg,#ffffff,#e9f7ff);
+
+}
+
+.left{
+
+flex:1;
+
+animation:fade 1s;
+
+}
+
+.right{
+
+flex:1;
+text-align:center;
+
+animation:fade2 1.5s;
+
+}
+
+.right img{
+
+border:8px solid white;
+
+width:430px;
+
+max-width:95%;
+
+border-radius:35px;
+
+box-shadow:0 30px 60px rgba(47,128,237,.25);
+
+transition:.5s;
+
+}
+  .right img:hover{
+
+transform:scale(1.04);
+
+}
+
+.hero h1{
+
+line-height:1.2;
+letter-spacing:-1px;
+font-size:55px;
+
+color:#2F80ED;
+
+margin-bottom:20px;
+
+}
+
+.hero h2{
+
+font-size:34px;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+max-width:620px;
+
+font-size:19px;
+
+color:#555;
+
+margin-bottom:35px;
+
+}
+
+.btn{
+font-size:18px;
+font-weight:700;
+
+display:inline-block;
+
+padding:16px 35px;
+
+background:#2F80ED;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:40px;
+
+font-weight:bold;
+
+transition:.4s;
+
+box-shadow:0 15px 35px rgba(0,133,255,.3);
+
+}
+
+.btn:hover{
+
+transform:translateY(-4px);
+
+background:#006fd8;
+
+}
+
+.wave{
+
+position:absolute;
+
+bottom:0;
+
+left:0;
+
+width:100%;
+
+}
+
+section{
+
+padding:110px 8%;
+
+}
+
+.title{
+letter-spacing:-1px;
+position:relative;
+
+text-align:center;
+
+font-size:40px;
+
+margin-bottom:60px;
+
+color:#2F80ED;
+
+font-weight:800;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+}
+
+.card{
+height:100%;
+
+overflow:hidden;
+
+background:white;
+
+padding:35px;
+
+border-radius:25px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.4s;
+
+border:1px solid #EAF2FF;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 25px 55px rgba(0,0,0,.15);
+
+}
+
+.card i{
+display:block;
+margin-bottom:25px;
+
+font-size:45px;
+
+color:#2F80ED;
+
+margin-bottom:20px;
+
+}
+
+.card h3{
+
+margin-bottom:15px;
+
+font-size:23px;
+
+color:#1f2d3d;
+
+}
+
+.about{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:60px;
+
+align-items:center;
+
+}
+
+.about img{
+
+border:8px solid white;
+  
+width:100%;
+
+border-radius:25px;
+
+box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.timeline{
+
+display:flex;
+
+justify-content:space-between;
+
+flex-wrap:wrap;
+
+gap:20px;
+
+}
+
+.step{
+
+flex:1;
+
+min-width:180px;
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.step span{
+
+display:inline-flex;
+
+width:55px;
+
+height:55px;
+
+background:#2F80ED;
+
+color:white;
+
+border-radius:50%;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:22px;
+
+font-weight:bold;
+
+margin-bottom:20px;
+
+}
+
+.counter{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:20px;
+
+}
+
+.box{
+
+background:#2F80ED;
+
+color:white;
+
+padding:40px;
+
+border-radius:25px;
+
+text-align:center;
+
+}
+
+.box h2{
+
+font-size:45px;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+transform:translateX(-40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:none;
+
+}
+
+}
+
+@keyframes fade2{
+
+from{
+
+opacity:0;
+
+transform:translateX(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:none;
+
+}
+
+}
+
+@media(max-width:900px){
+
+.hero{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+}
+
+.about{
+
+grid-template-columns:1fr;
+
+}
+
+.counter{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+nav ul{
+
+display:none;
+
+}
+
+.hero h1{
+
+line-height:1.2;
+letter-spacing:-1px;
+
+font-size:38px;
+
+letter-spacing:1px;
+
+}
+
+.hero h2{
+
+font-size:24px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+🩺 آرامیس
+
+</div>
+
+<ul>
+
+<li><a href="#about">درباره ما</a></li>
+
+<li><a href="#fibroid">
+فیبروم رحم
+
+  </a></li>
+
+<li><a href="#services">خدمات</a></li>
+
+<li><a href="#faq">سوالات</a></li>
+
+<li><a href="#contact">تماس</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="left">
+
+<h1>آرامیس</h1>
+
+<p class="hero-slogan">
+
+دقت در تشخیص ، آرامش در درمان
+
+</p>
+
+<p>
+
+متخصص رادیولوژی و فلوشیپ اینترونشن
+درمان فیبروم رحم بدون جراحی با تکنیک پیشرفته آمبولیزاسیون شریان رحمی (UFE)
+
+</p>
+
+<a class="btn"
+
+class="btn whatsapp-btn"
+
+href="https://wa.me/989121909166">
+
+ویزیت آنلاین
+
+</a>
+
+</div>
+
+<div class="right">
+
+<img src="doctor.webp" alt="دکتر رضا واقعی تبار">
+
+</div>
+
+</section>
+
+  <!-- ABOUT DOCTOR SECTION -->
+
+<section id="about">
+
+<h2 class="title">درباره دکتر</h2>
+
+  
+
+<div class="about">
+
+<div class="about-text">
+
+<h2>
+دکتر رضا واقعی تبار
+</h2>
+
+  <p class="hero-slogan">
+دقت در تشخیص ، آرامش در درمان
+
+</p>
+
+<h3 class="doctor-speciality">
+متخصص رادیولوژی و فلوشیپ اینترونشن
+</h3>
+
+
+<p>
+دکتر رضا واقعی تبار با تمرکز بر روش‌های درمانی کم‌تهاجمی،
+از تکنیک‌های پیشرفته تصویربرداری و آنژیوگرافی برای درمان
+بیماری‌هایی استفاده می‌کند که در گذشته نیازمند جراحی‌های
+سنگین بودند.
+</p>
+
+
+<p>
+هدف کلینیک آرامیس ارائه درمان دقیق، ایمن و مبتنی بر
+جدیدترین روش‌های رادیولوژی مداخله‌ای با کمترین آسیب به بدن
+و کوتاه‌ترین دوره نقاهت است.
+</p>
+
+
+<div class="doctor-info">
+
+<div class="info-item">
+
+<i class="fa-solid fa-user-doctor"></i>
+
+<span>
+فلوشیپ رادیولوژی اینترونشن
+</span>
+
+</div>
+
+
+<div class="info-item">
+
+<i class="fa-solid fa-microscope"></i>
+
+<span>
+درمان تحت هدایت تصویربرداری
+</span>
+
+</div>
+
+
+<div class="info-item">
+
+<i class="fa-solid fa-heart-pulse"></i>
+
+<span>
+تمرکز بر درمان‌های کم‌تهاجمی
+</span>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<div class="about-image">
+
+<img src="doctor.webp"
+alt="دکتر رضا واقعی تبار">
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- WHY NOVAVENA -->
+
+
+<section>
+
+<h2 class="title">
+چرا آرامیس؟
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card glass">
+
+<i class="fa-solid fa-crosshairs"></i>
+
+<h3>
+دقت بالا در درمان
+</h3>
+
+<p>
+استفاده از تصویربرداری پیشرفته برای هدایت دقیق مراحل درمان
+</p>
+
+</div>
+
+
+
+<div class="card glass">
+
+<i class="fa-solid fa-user-shield"></i>
+
+<h3>
+رویکرد بیمارمحور
+</h3>
+
+<p>
+انتخاب بهترین روش درمانی متناسب با شرایط هر بیمار
+</p>
+
+</div>
+
+
+
+<div class="card glass">
+
+<i class="fa-solid fa-hospital"></i>
+
+<h3>
+تجهیزات مدرن
+</h3>
+
+<p>
+انجام اقدامات مداخله‌ای با استانداردهای روز پزشکی
+</p>
+
+</div>
+
+
+
+<div class="card glass">
+
+<i class="fa-solid fa-headset"></i>
+
+<h3>
+پیگیری پس از درمان
+</h3>
+
+<p>
+همراهی بیمار از اولین مشاوره تا بعد از درمان
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- FIBROID EDUCATION -->
+
+
+<section id="fibroid">
+
+
+<h2 class="title">
+درمان فیبروم رحم با آمبولیزاسیون
+</h2>
+
+
+
+<div class="medical-box">
+
+
+<h3>
+آمبولیزاسیون شریان رحمی (Uterine Fibroid Embolization)
+</h3>
+
+
+<p>
+
+فیبروم رحم یکی از شایع‌ترین توده‌های خوش‌خیم رحم است که
+می‌تواند باعث خونریزی شدید، درد لگنی، احساس فشار،
+کم‌خونی و مشکلات مرتبط با کیفیت زندگی شود.
+
+</p>
+
+
+<p>
+
+در روش آمبولیزاسیون فیبروم رحم، پزشک از طریق یک مسیر
+عروقی بسیار ظریف، ذرات مخصوص را به عروق تغذیه‌کننده
+فیبروم هدایت می‌کند. با کاهش خون‌رسانی، فیبروم به مرور
+کوچک شده و علائم بیمار کاهش پیدا می‌کند.
+
+</p>
+
+
+</div>
+
+
+
+
+<div class="comparison">
+
+
+<div class="compare-card">
+
+<h3>
+آمبولیزاسیون
+</h3>
+
+
+<ul>
+
+<li>بدون برش جراحی</li>
+
+<li>بدون برداشتن رحم</li>
+
+<li>دوره نقاهت کوتاه‌تر</li>
+
+<li>کاهش خونریزی و درد</li>
+
+<li>حفظ ساختار رحم</li>
+
+</ul>
+
+</div>
+
+
+
+<div class="compare-card">
+
+<h3>
+جراحی باز
+</h3>
+
+
+<ul>
+
+<li>نیاز به برش</li>
+
+<li>دوره نقاهت طولانی‌تر</li>
+
+<li>ریسک بیشتر عوارض جراحی</li>
+
+<li>بستری طولانی‌تر</li>
+
+<li>تهاجم بیشتر به بدن</li>
+
+</ul>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+  <!-- TREATMENT PROCESS -->
+
+<section>
+
+<h2 class="title">
+مراحل درمان در آرامیس
+</h2>
+
+
+<div class="timeline">
+
+
+<div class="step">
+
+<span>۱</span>
+
+<h3>
+مشاوره تخصصی
+</h3>
+
+<p>
+بررسی علائم، سوابق پزشکی و تصاویر تشخیصی بیمار
+</p>
+
+</div>
+
+
+
+<div class="step">
+
+<span>۲</span>
+
+<h3>
+ارزیابی تصویربرداری
+</h3>
+
+<p>
+بررسی MRI یا سونوگرافی برای انتخاب بهترین روش درمان
+</p>
+
+</div>
+
+
+
+<div class="step">
+
+<span>۳</span>
+
+<h3>
+انجام آنژیوگرافی
+</h3>
+
+<p>
+ورود کاتتر ظریف از مسیر عروق و هدایت دقیق آن
+</p>
+
+</div>
+
+
+
+<div class="step">
+
+<span>۴</span>
+
+<h3>
+آمبولیزاسیون
+</h3>
+
+<p>
+کاهش خون‌رسانی فیبروم و شروع روند کوچک شدن آن
+</p>
+
+</div>
+
+
+
+<div class="step">
+
+<span>۵</span>
+
+<h3>
+پیگیری درمان
+</h3>
+
+<p>
+کنترل روند بهبودی و پاسخ بدن به درمان
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- BENEFITS -->
+
+
+<section>
+
+
+<h2 class="title">
+مزایای آمبولیزاسیون فیبروم رحم
+</h2>
+
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<i class="fa-solid fa-syringe"></i>
+
+<h3>
+کم‌تهاجمی
+</h3>
+
+<p>
+بدون نیاز به جراحی باز و برش شکم
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-person"></i>
+
+<h3>
+حفظ رحم
+</h3>
+
+<p>
+گزینه‌ای مناسب برای بیمارانی که تمایل به حفظ رحم دارند
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-bed"></i>
+
+<h3>
+دوره نقاهت کوتاه
+</h3>
+
+<p>
+بازگشت سریع‌تر به فعالیت‌های روزمره
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-droplet"></i>
+
+<h3>
+کاهش خونریزی
+</h3>
+
+<p>
+بهبود علائم ناشی از فیبروم در بسیاری از بیماران
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-clock"></i>
+
+<h3>
+زمان درمان کمتر
+</h3>
+
+<p>
+زمان کوتاه‌تر نسبت به بسیاری از روش‌های جراحی
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-shield-heart"></i>
+
+<h3>
+ایمنی بالا
+</h3>
+
+<p>
+انجام درمان با کنترل دقیق تصویربرداری
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- SERVICES COMPLETE -->
+
+
+<section id="services">
+
+
+<h2 class="title">
+خدمات کلینیک
+</h2>
+
+
+<div class="cards">
+
+<div class="card">
+
+<i class="fa-solid fa-vial"></i>
+
+<h3>FNA تیروئید</h3>
+
+<p>
+
+نمونه‌برداری دقیق از ندول‌های تیروئید تحت هدایت سونوگرافی.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-lungs"></i>
+
+<h3>بیوپسی کبد</h3>
+
+<p>
+
+نمونه‌برداری از کبد با هدایت تصویربرداری و دقت بالا.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-kidneys"></i>
+
+<h3>بیوپسی کلیه</h3>
+
+<p>
+
+نمونه‌برداری از کلیه برای تشخیص دقیق بیماری‌ها.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-bone"></i>
+
+<h3>بیوپسی استخوان</h3>
+
+<p>
+
+نمونه‌برداری از استخوان و ضایعات اسکلتی با هدایت CT.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-venus"></i>
+
+<h3>
+آمبولیزاسیون فیبروم رحم
+</h3>
+
+<p>
+درمان غیرجراحی فیبروم با تکنیک UFE
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-v"></i>
+
+<h3>
+درمان واریس لگنی
+</h3>
+
+<p>
+بررسی و درمان مشکلات عروقی لگن
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-x-ray"></i>
+
+<h3>
+نمونه‌برداری تصویربرداری شده
+</h3>
+
+<p>
+بیوپسی تحت هدایت CT و سونوگرافی
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-droplet"></i>
+
+<h3>
+درمان خونریزی‌های عروقی
+</h3>
+
+<p>
+اقدامات مداخله‌ای برای کنترل خونریزی
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-heart-pulse"></i>
+
+<h3>
+درمان بیماری‌های عروقی
+</h3>
+
+<p>
+بررسی و درمان مشکلات عروقی با روش‌های نوین
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-user-nurse"></i>
+
+<h3>
+مشاوره تخصصی
+</h3>
+
+<p>
+ارزیابی شرایط بیمار و انتخاب بهترین مسیر درمان
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- STATISTICS -->
+
+
+<section>
+
+
+<h2 class="title">
+تخصص و تجربه
+</h2>
+
+
+
+<div class="counter">
+
+
+<div class="box">
+
+<h2>
+3500+
+</h2>
+
+<p>
+اقدام درمانی
+</p>
+
+</div>
+
+
+<div class="box">
+
+<h2>
+7+
+</h2>
+
+<p>
+سال تجربه
+</p>
+
+</div>
+
+
+<div class="box">
+
+<h2>
+98%
+</h2>
+
+<p>
+دقت و رضایت درمانی
+</p>
+
+</div>
+
+
+<div class="box">
+
+<h2>
+24H
+</h2>
+
+<p>
+پیگیری سریع
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+  <!-- FAQ SECTION -->
+
+<section id="faq">
+
+<h2 class="title">
+سوالات متداول
+</h2>
+
+
+<div class="faq-container">
+
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+آیا درمان فیبروم رحم بدون جراحی امکان‌پذیر است؟
+
+<i class="fa-solid fa-plus"></i>
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+بله. آمبولیزاسیون شریان رحمی (UFE) یک روش کم‌تهاجمی است که بدون جراحی باز انجام می‌شود و در بسیاری از بیماران باعث کاهش علائم فیبروم می‌شود.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+آیا رحم بعد از آمبولیزاسیون حفظ می‌شود؟
+
+<i class="fa-solid fa-plus"></i>
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+در این روش رحم برداشته نمی‌شود و هدف، کنترل فیبروم و حفظ ساختار رحم است.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+مدت بستری بعد از درمان چقدر است؟
+
+<i class="fa-solid fa-plus"></i>
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+بسیاری از بیماران پس از یک دوره کوتاه تحت نظر بودن، می‌توانند به منزل بازگردند.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+چه کسانی کاندید مناسب این درمان هستند؟
+
+<i class="fa-solid fa-plus"></i>
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+انتخاب بیمار مناسب پس از بررسی علائم، اندازه فیبروم، تصاویر پزشکی و شرایط فردی توسط پزشک انجام می‌شود.
+</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+<!-- CONSULT FORM -->
+
+
+<section id="contact">
+
+
+<h2 class="title">
+درخواست مشاوره تخصصی
+</h2>
+
+
+<div class="contact-box">
+
+
+<form>
+
+
+<input type="text" placeholder="نام و نام خانوادگی">
+
+
+<input type="tel" placeholder="شماره تماس">
+
+
+<input type="number" placeholder="سن">
+
+
+<textarea rows="5" placeholder="توضیحات درباره علائم، سابقه بیماری یا سوال شما"></textarea>
+
+
+<button type="submit">
+
+ارسال درخواست مشاوره
+
+</button>
+
+
+</form>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- CONTACT INFO -->
+
+
+<section>
+
+
+<h2 class="title">
+ارتباط با کلینیک
+</h2>
+
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<i class="fa-solid fa-user-doctor"></i>
+
+<h3>
+پزشک
+</h3>
+
+<p>
+دکتر رضا واقعی تبار
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-location-dot"></i>
+
+<h3>
+آدرس
+</h3>
+
+<p>
+تهران، فرمانیه
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-phone"></i>
+
+<h3>
+شماره تماس
+</h3>
+
+<p>
++98 912 190 9166
+</p>
+
+</div>
+
+
+</div>
+
+
+<br>
+
+
+<div class="map">
+
+<iframe
+
+src="https://maps.google.com/maps?q=Farmanieh%20Tehran&t=&z=14&ie=UTF8&iwloc=&output=embed"
+
+loading="lazy">
+
+</iframe>
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer>
+
+
+<h2>
+آرامیس
+</h2>
+
+
+<p>
+
+کلینیک تخصصی رادیولوژی اینترونشن
+
+</p>
+
+
+<p>
+
+دکتر رضا واقعی تبار
+
+</p>
+
+
+<p>
+
+© تمامی حقوق محفوظ است
+
+</p>
+
+
+</footer>
+
+
+
+
+
+<!-- WHATSAPP BUTTON -->
+
+
+<a class="whatsapp"
+
+href="https://wa.me/989121909166"
+
+target="_blank">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+
+
+
+<style>
+
+
+.glass{
+
+background:rgba(255,255,255,.7);
+
+backdrop-filter:blur(10px);
+
+}
+
+.about{
+
+background:rgba(255,255,255,.08);
+
+padding:45px;
+
+border-radius:35px;
+
+backdrop-filter:blur(10px);
+
+}
+
+.about-text{
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+.about-text h2{
+font-size:42px;
+font-weight:800;
+color:#FFFFFF;
+margin-bottom:15px;
+}
+.hero-slogan{
+font-size:22px;
+color:#2F80ED;
+font-weight:700;
+margin-top:15px;
+}
+.doctor-speciality{color:#fff;margin:15px 0;font-size:28px;}
+.card p{color:#666;line-height:2;font-size:17px;}
+.title::after{content:"";display:block;width:90px;height:4px;background:#2F80ED;margin:18px auto 0;border-radius:50px;}
+.whatsapp-btn{margin-right:15px;background:#25D366;}
+.about-text p{
+
+color:white;
+
+font-size:18px;
+
+line-height:2.3;
+
+}
+
+.doctor-info{
+
+margin-top:25px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+
+.info-item{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+color:#ffffff;
+  .about h2{
+    color:#FFFFFF;
+    text-shadow:0 2px 8px rgba(0,0,0,.25);
+}
+
+.info-item i{
+
+font-size:24px;
+
+width:32px;
+
+text-align:center;
+
+color:white;
+
+
+}
+
+
+.medical-box{
+
+line-height:2.3;
+
+background:white;
+
+padding:40px;
+
+border-radius:25px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+.comparison{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+
+.compare-card{
+
+transition:.35s;
+
+background:white;
+
+padding:35px;
+
+border-radius:25px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+.compare-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+  
+.compare-card h3{
+
+color:#2F80ED;
+
+}
+
+
+.compare-card li{
+
+margin:15px;
+
+}
+
+
+.faq-container{
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+
+.faq-item{
+
+background:white;
+
+margin-bottom:15px;
+
+border-radius:15px;
+
+overflow:hidden;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+
+.faq-question{
+
+width:100%;
+
+border:0;
+
+background:white;
+
+padding:25px;
+
+font-family:inherit;
+
+font-size:18px;
+
+display:flex;
+
+justify-content:space-between;
+
+cursor:pointer;
+
+}
+
+
+.faq-answer{
+
+display:none;
+
+padding:0 25px 25px;
+
+color:#555;
+
+}
+
+
+
+.contact-box{
+
+max-width:600px;
+
+margin:auto;
+
+background:white;
+
+padding:40px;
+
+border-radius:25px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.1);
+
+}
+
+
+.contact-box input,
+
+.contact-box textarea{
+
+font-size:17px;
+
+width:100%;
+
+margin-bottom:15px;
+
+padding:15px;
+
+border-radius:12px;
+
+  border:1px solid #ddd;
+
+font-family:inherit;
+
+}
+
+
+.contact-box button{
+
+width:100%;
+
+border:none;
+
+cursor:pointer;
+
+}
+
+
+.map iframe{
+
+width:100%;
+
+height:350px;
+
+border:0;
+
+border-radius:25px;
+
+}
+
+
+footer{
+
+background:#0e2748;
+
+color:white;
+
+text-align:center;
+
+padding:60px 30px;
+
+margin-top:80px;
+
+}
+
+
+.whatsapp{
+
+box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+transition:.4s;
+
+position:fixed;
+
+bottom:25px;
+
+left:25px;
+
+width:60px;
+
+height:60px;
+
+border-radius:50%;
+
+background:#25d366;
+
+color:white;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:35px;
+
+z-index:999;
+
+}
+
+.whatsapp:hover{
+
+transform:scale(1.1);
+
+}
+
+@media(max-width:700px){
+
+
+.comparison{
+
+grid-template-columns:1fr;
+
+}
+
+
+}
+
+
+</style>
+
+
+
+
+
+<script>
+
+
+// FAQ
+
+
+const faqButtons=document.querySelectorAll(".faq-question");
+
+
+faqButtons.forEach(btn=>{
+
+
+btn.addEventListener("click",()=>{
+
+
+const answer=btn.nextElementSibling;
+
+
+if(answer.style.display==="block"){
+
+answer.style.display="none";
+
+}
+
+else{
+
+answer.style.display="block";
+
+}
+
+
+});
+
+
+});
+
+
+
+
+// smooth reveal
+
+
+const elements=document.querySelectorAll(".card,.step,.box");
+
+
+const observer=new IntersectionObserver(entries=>{
+
+
+entries.forEach(entry=>{
+
+
+if(entry.isIntersecting){
+
+
+entry.target.style.opacity="1";
+
+entry.target.style.transform="translateY(0)";
+
+
+}
+
+
+});
+
+
+});
+
+
+elements.forEach(el=>{
+
+
+el.style.opacity="0";
+
+el.style.transform="translateY(40px)";
+
+el.style.transition="all .7s ease";
+
+
+observer.observe(el);
+
+
+});
+
+
+
+</script>
+
+
+</body>
+
+</html>
